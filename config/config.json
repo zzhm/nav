@@ -44,9 +44,9 @@
     },
 	
     {
-      "name": "搜狗",
-      "id": "sogou",
-      "queryUrl": "https://www.sogou.com/web?query={}"
+      "name": "结题基金",
+      "id": "nsfcfond",
+      "queryUrl": "http://output.nsfc.gov.cn/conclusionQuick/{}"
     },
 	{
 	  "name": "SooPAT",
@@ -97,9 +97,9 @@
       "queryUrl": "https://so.csdn.net/so/search/s.do?q={} "
     },
 	{
-      "name": "文献港",
-      "id": "szdnet",
-      "queryUrl": "http://fx.szdnet.chaoxing.com/s?sw={}&strchannel=11%2C12 "
+      "name": "UCDRS",
+      "id": "ucdrs",
+      "queryUrl": "http://book.ucdrs.superlib.net/search?Field=all&channel=search&sw={}&edtype=&ecode=utf-8"
     },
     {
       "name": "GitHub",
@@ -138,6 +138,11 @@
       "name": "地图",
       "id": "ditu",
       "queryUrl": "http://ditu.amap.com/search?query={} "
+    },
+    {
+      "name": "本地宝",
+      "id": "bendibao",
+      "queryUrl": "http://jn.bendibao.com/sou/?s=&q={} "
     }
   ]
 }
