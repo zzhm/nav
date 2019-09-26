@@ -31,16 +31,28 @@
       "id": "libgen",
       "queryUrl": "http://gen.lib.rus.ec/search.php?req={} "
     },
+	    {
+      "name": "Nature",
+      "id": "nature",
+      "queryUrl": "https://www.nature.com/search?q={} "
+    },
+
+    {
+      "name": "Science",
+      "id": "science",
+      "queryUrl": "https://search.sciencemag.org/?searchTerm={} "
+    },
+	
     {
       "name": "搜狗",
       "id": "sogou",
       "queryUrl": "https://www.sogou.com/web?query={}"
     },
-		    {
-		  "name": "必应",
-		  "id": "biying",
-		  "queryUrl": "https://cn.bing.com/search?q={}"
-			},
+	{
+	  "name": "SooPAT",
+	  "id": "soopat",
+	  "queryUrl": "http://www2.soopat.com/Home/Result?SearchWord={}"
+	},
 		
     {
       "name": "京东",
@@ -74,6 +86,26 @@
       "id": "zhihu",
       "queryUrl": "https://www.zhihu.com/search?q={}"
     },
+	{
+      "name": "文库",
+      "id": "wenku",
+      "queryUrl": "https://wenku.baidu.com/search?word={} "
+    },
+	{
+      "name": "CSDN",
+      "id": "csdn",
+      "queryUrl": "https://so.csdn.net/so/search/s.do?q={} "
+    },
+	{
+      "name": "文献港",
+      "id": "szdnet",
+      "queryUrl": "http://fx.szdnet.chaoxing.com/s?sw={}&strchannel=11%2C12 "
+    },
+    {
+      "name": "GitHub",
+      "id": "github",
+      "queryUrl": "https://github.com/search?q={} "
+    },
     {
       "name": "微博",
       "id": "weibo",
@@ -92,7 +124,11 @@
 		"color": "danger",
 		 "display": true
 	},
-				
+	{
+      "name": "优惠券",
+      "id": "youhuiquan",
+      "queryUrl": "http://q.zymin.cn/pc_main/pc-search?searchText={} "
+    },			
     {
       "name": "影视",
       "id": "ziyuan",
@@ -104,11 +140,6 @@
       "queryUrl": "http://ditu.amap.com/search?query={} "
     },
 
-   
-    {
-      "name": "Lib Gen",
-      "id": "libgen",
-      "queryUrl": "http://gen.lib.rus.ec/search.php?req={} "
-    }
+
   ]
 }
