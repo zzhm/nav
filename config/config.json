@@ -58,13 +58,13 @@
       "queryUrl": "https://www.douban.com/search?q={}"
     },
 		  
-				   {
-		  "name": "网盘",
-		  "id": "wangpan",
-		  "queryUrl": "https://www.dalipan.com/search?keyword={}",
-			"color": "danger",
-			 "display": true
-		},
+	{
+	  "name": "网盘",
+	  "id": "wangpan",
+	  "queryUrl": "https://www.dalipan.com/search?keyword={}",
+		"color": "danger",
+		 "display": true
+	},
 			
 		
     {
@@ -76,6 +76,11 @@
       "name": "地图",
       "id": "ditu",
       "queryUrl": "http://ditu.amap.com/search?query={} "
+    },
+    {
+      "name": "百度学术",
+      "id": "bdxueshu",
+      "queryUrl": "http://xueshu.baidu.com/s?wd={} "
     }
   ]
 }
