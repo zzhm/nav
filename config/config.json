@@ -138,8 +138,6 @@
       "name": "地图",
       "id": "ditu",
       "queryUrl": "http://ditu.amap.com/search?query={} "
-    },
-
-
+    }
   ]
 }
