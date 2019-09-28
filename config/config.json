@@ -31,7 +31,7 @@
       "id": "libgen"
       "queryUrl": "http://gen.lib.rus.ec/search.php?req={}"
     },
-	    {
+	{
       "name": "Nature",
       "id": "nature",
       "queryUrl": "https://www.nature.com/search?q={}"
@@ -56,8 +56,7 @@
 	  "name": "SooPAT",
 	  "id": "soopat",
 	  "queryUrl": "http://www2.soopat.com/Home/Result?SearchWord={}"
-	},
-		
+	},	
     {
       "name": "京东",
       "id": "jd",
@@ -66,8 +65,7 @@
     {
       "name": "天猫",
       "id": "tmall",
-      "queryUrl": "https://list.tmall.com/search_product.htm?q={}&ali_trackid=2:mm_120109148_323350107_109489000473",
-      "display": false
+      "queryUrl": "https://list.tmall.com/search_product.htm?q={}&ali_trackid=2:mm_120109148_323350107_109489000473"
     },
     {
       "name": "淘宝",
@@ -83,13 +81,12 @@
       "name": "飞猪",
       "id": "飞猪",
       "queryUrl": "https://travelsearch.fliggy.com/index.htm?searchType=product&keyword={}&ali_trackid=2:mm_120109148_323350107_109489000473"
-    },
-	
+    },	
     {
       "name": "微信",
       "id": "weixin",
       "queryUrl": "http://weixin.sogou.com/weixin?type=2&query={}&ie=utf8"
-		},
+	},
     {
       "name": "知乎",
       "id": "zhihu",
@@ -124,8 +121,7 @@
       "name": "豆瓣",
       "id": "douban",
       "queryUrl": "https://www.douban.com/search?q={}"
-    },
-		  
+    },	  
 	{
 	  "name": "网盘",
 	  "id": "wangpan",
