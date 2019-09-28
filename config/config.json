@@ -14,35 +14,39 @@
 	{
       "name": "百度学术",
       "id": "bdxueshu",
-      "queryUrl": "http://xueshu.baidu.com/s?wd={} "
+      "queryUrl": "http://xueshu.baidu.com/s?wd={}"
     },
     {
       "name": "SCI-HUB",
       "id": "scihub",
-      "queryUrl": "https://sci-hub.tw/{} "
+      "queryUrl": "https://sci-hub.tw/{}"
     },
     {
       "name": "IEEE",
       "id": "ieee",
-      "queryUrl": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={} "
+      "queryUrl": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={}"
     },
     {
       "name": "Lib Gen",
-      "id": "libgen",
-      "queryUrl": "http://gen.lib.rus.ec/search.php?req={} "
+      "id": "libgen"
+      "queryUrl": "http://gen.lib.rus.ec/search.php?req={}"
     },
 	    {
       "name": "Nature",
       "id": "nature",
-      "queryUrl": "https://www.nature.com/search?q={} "
+      "queryUrl": "https://www.nature.com/search?q={}"
     },
 
     {
       "name": "Science",
       "id": "science",
-      "queryUrl": "https://search.sciencemag.org/?searchTerm={} "
+      "queryUrl": "https://search.sciencemag.org/?searchTerm={}"
     },
-	
+    {
+      "name": "ScienceDirect",
+      "id": "sciencedirect",
+      "queryUrl": "https://www.sciencedirect.com/search/advanced?qs={}&show=25&sortBy=relevance"
+    },	
     {
       "name": "结题基金",
       "id": "nsfcfond",
@@ -57,23 +61,28 @@
     {
       "name": "京东",
       "id": "jd",
-      "queryUrl": "http://search.jd.com/Search?enc=utf-8&keyword={}"
+      "queryUrl": "http://search.jd.com/Search?enc=utf-8&keyword={}&utm_campaign=t_1000214040_1234300008_1232593591"
     },
     {
       "name": "天猫",
       "id": "tmall",
-      "queryUrl": "https://list.tmall.com/search_product.htm?q={}",
+      "queryUrl": "https://list.tmall.com/search_product.htm?q={}&ali_trackid=2:mm_120109148_323350107_109489000473",
       "display": false
     },
     {
       "name": "淘宝",
       "id": "taobao",
-      "queryUrl": "https://s.taobao.com/search?q={}"
+      "queryUrl": "https://s.taobao.com/search?q={}&ali_trackid=2:mm_120109148_323350107_109489000473"
     },
 	 {
       "name": "当当",
       "id": "dangdang",
-      "queryUrl": "http://search.dangdang.com/?key={} "
+      "queryUrl": "http://search.dangdang.com/?key={}"
+    },
+	{
+      "name": "飞猪",
+      "id": "飞猪",
+      "queryUrl": "https://travelsearch.fliggy.com/index.htm?searchType=product&keyword={}&ali_trackid=2:mm_120109148_323350107_109489000473"
     },
 	
     {
@@ -89,12 +98,12 @@
 	{
       "name": "文库",
       "id": "wenku",
-      "queryUrl": "https://wenku.baidu.com/search?word={} "
+      "queryUrl": "https://wenku.baidu.com/search?word={}"
     },
 	{
       "name": "CSDN",
       "id": "csdn",
-      "queryUrl": "https://so.csdn.net/so/search/s.do?q={} "
+      "queryUrl": "https://so.csdn.net/so/search/s.do?q={}"
     },
 	{
       "name": "UCDRS",
@@ -104,7 +113,7 @@
     {
       "name": "GitHub",
       "id": "github",
-      "queryUrl": "https://github.com/search?q={} "
+      "queryUrl": "https://github.com/search?q={}"
     },
     {
       "name": "微博",
@@ -128,21 +137,42 @@
       "name": "优惠券",
       "id": "youhuiquan",
       "queryUrl": "http://q.zymin.cn/pc_main/pc-search?searchText={} "
-    },			
+    },		
+	{
+      "name": "大众点评",
+      "id": "dianping",
+      "queryUrl": "https://www.dianping.com/search/keyword/22/0_{} "
+    },
+	{
+      "name": "美团",
+      "id": "youhuiquan",
+      "queryUrl": "https://jn.meituan.com/s/{} "
+    },	
     {
       "name": "影视",
       "id": "ziyuan",
       "queryUrl": "http://ifkdy.com/?q={}&p=1"
     },
     {
-      "name": "地图",
-      "id": "ditu",
-      "queryUrl": "http://ditu.amap.com/search?query={} "
+      "name": "高德地图",
+      "id": "gaode",
+      "queryUrl": "http://ditu.amap.com/search?query={}"
+    },
+	{
+      "name": "百度地图",
+      "id": "bdditu",
+      "queryUrl": "https://map.baidu.com/search?querytype=s&wd={}"
     },
     {
       "name": "本地宝",
       "id": "bendibao",
-      "queryUrl": "http://jn.bendibao.com/sou/?s=&q={} "
+      "queryUrl": "http://jn.bendibao.com/sou/?s=&q={}"
+    },
+    {
+      "name": "马蜂窝",
+      "id": "mafengwo",
+      "queryUrl": "http://www.mafengwo.cn/search/q.php?q={}"
     }
+	
   ]
 }
