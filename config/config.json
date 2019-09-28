@@ -69,19 +69,19 @@
     {
       "name": "京东",
       "id": "jd",
-      "queryUrl": "http://search.jd.com/Search?enc=utf-8&keyword={}&utm_campaign=t_1000214040_1234300008_1232593591"
+      "queryUrl": "http://search.jd.com/Search?enc=utf-8&keyword={}"
     },
 	
     {
       "name": "天猫",
       "id": "tmall",
-      "queryUrl": "https://list.tmall.com/search_product.htm?q={}&ali_trackid=2:mm_120109148_323350107_109489000473"
+      "queryUrl": "https://list.tmall.com/search_product.htm?q={}"
     },
 	
     {
       "name": "淘宝",
       "id": "taobao",
-      "queryUrl": "https://s.taobao.com/search?q={}&ali_trackid=2:mm_120109148_323350107_109489000473"
+      "queryUrl": "https://s.taobao.com/search?q={}"
     },
 	
 	 {
@@ -93,7 +93,7 @@
 	{
       "name": "飞猪",
       "id": "飞猪",
-      "queryUrl": "https://travelsearch.fliggy.com/index.htm?searchType=product&keyword={}&ali_trackid=2:mm_120109148_323350107_109489000473"
+      "queryUrl": "https://travelsearch.fliggy.com/index.htm?searchType=product&keyword={}"
     },	
 	
     {
