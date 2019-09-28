@@ -5,223 +5,77 @@
       "id": "baidu",
       "queryUrl": "https://www.baidu.com/s?wd={}"
     },
-	
     {
       "name": "谷歌",
       "id": "google",
       "queryUrl": "http://www.google.com/search?q={}"
     },
-	
-	{
-      "name": "百度学术",
-      "id": "bdxueshu",
-      "queryUrl": "http://xueshu.baidu.com/s?wd={} "
-    },
-	
     {
-      "name": "SCI-HUB",
-      "id": "scihub",
-      "queryUrl": "https://sci-hub.tw/{} "
+      "name": "搜狗",
+      "id": "sogou",
+      "queryUrl": "https://www.sogou.com/web?query={}"
     },
-	
-    {
-      "name": "IEEE",
-      "id": "ieee",
-      "queryUrl": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={} "
-    },
-	
-    {
-      "name": "Lib Gen",
-      "id": "libgen",
-      "queryUrl": "http://gen.lib.rus.ec/search.php?req={} "
-    },
-	
-	{
-      "name": "Nature",
-      "id": "nature",
-      "queryUrl": "https://www.nature.com/search?q={} "
-    },
-
-    {
-      "name": "Science",
-      "id": "science",
-      "queryUrl": "https://search.sciencemag.org/?searchTerm={} "
-    },
-	
-    {
-      "name": "结题基金",
-      "id": "nsfcfond",
-      "queryUrl": "http://output.nsfc.gov.cn/conclusionQuick/{}"
-    },
-	
-	{
-	  "name": "SooPAT",
-	  "id": "soopat",
-	  "queryUrl": "http://www2.soopat.com/Home/Result?SearchWord={}"
-	},	
-	
+		    {
+		  "name": "必应",
+		  "id": "biying",
+		  "queryUrl": "https://cn.bing.com/search?q={}"
+			},
+		
     {
       "name": "京东",
       "id": "jd",
       "queryUrl": "http://search.jd.com/Search?enc=utf-8&keyword={}"
     },
-	
     {
       "name": "天猫",
       "id": "tmall",
-<<<<<<< HEAD
-      "queryUrl": "https://list.tmall.com/search_product.htm?q={}&ali_trackid=2:mm_120109148_323350107_109489000473"
-=======
       "queryUrl": "https://list.tmall.com/search_product.htm?q={}",
       "display": false
->>>>>>> parent of d87c89e... update
     },
-	
     {
       "name": "淘宝",
       "id": "taobao",
       "queryUrl": "https://s.taobao.com/search?q={}"
     },
-	
-	 {
-      "name": "当当",
-      "id": "dangdang",
-<<<<<<< HEAD
-      "queryUrl": "http://search.dangdang.com/?key={}"
-    },
-	
-	{
-      "name": "飞猪",
-      "id": "飞猪",
-      "queryUrl": "https://travelsearch.fliggy.com/index.htm?searchType=product&keyword={}&ali_trackid=2:mm_120109148_323350107_109489000473"
-    },	
-=======
-      "queryUrl": "http://search.dangdang.com/?key={} "
-    },
->>>>>>> parent of d87c89e... update
-	
     {
       "name": "微信",
       "id": "weixin",
       "queryUrl": "http://weixin.sogou.com/weixin?type=2&query={}&ie=utf8"
-	},
-	
+		},
     {
       "name": "知乎",
       "id": "zhihu",
       "queryUrl": "https://www.zhihu.com/search?q={}"
     },
-	
-	{
-      "name": "文库",
-      "id": "wenku",
-      "queryUrl": "https://wenku.baidu.com/search?word={} "
-    },
-	
-	{
-      "name": "CSDN",
-      "id": "csdn",
-      "queryUrl": "https://so.csdn.net/so/search/s.do?q={} "
-    },
-	
-	{
-      "name": "UCDRS",
-      "id": "ucdrs",
-      "queryUrl": "http://book.ucdrs.superlib.net/search?Field=all&channel=search&sw={}&edtype=&ecode=utf-8"
-    },
-	
-    {
-      "name": "GitHub",
-      "id": "github",
-      "queryUrl": "https://github.com/search?q={} "
-    },
-	
     {
       "name": "微博",
       "id": "weibo",
       "queryUrl": "http://s.weibo.com/weibo/{}"
     },
-	
     {
       "name": "豆瓣",
       "id": "douban",
       "queryUrl": "https://www.douban.com/search?q={}"
-    },	
-	
-	{
-	  "name": "网盘",
-	  "id": "wangpan",
-	  "queryUrl": "https://www.dalipan.com/search?keyword={}",
-		"color": "danger",
-		 "display": true
-	},
-	
-	{
-      "name": "优惠券",
-      "id": "youhuiquan",
-      "queryUrl": "http://q.zymin.cn/pc_main/pc-search?searchText={} "
-<<<<<<< HEAD
-    },	
-	
-	{
-      "name": "大众点评",
-      "id": "dianping",
-      "queryUrl": "https://www.dianping.com/search/keyword/22/0_{} "
     },
-	
-	{
-      "name": "美团",
-      "id": "youhuiquan",
-      "queryUrl": "https://jn.meituan.com/s/{} "
-    },	
-	
-=======
-    },			
->>>>>>> parent of d87c89e... update
+		  
+				   {
+		  "name": "网盘",
+		  "id": "wangpan",
+		  "queryUrl": "https://www.dalipan.com/search?keyword={}",
+			"color": "danger",
+			 "display": true
+		},
+			
+		
     {
       "name": "影视",
       "id": "ziyuan",
       "queryUrl": "http://ifkdy.com/?q={}&p=1"
     },
-	
     {
-<<<<<<< HEAD
-      "name": "高德地图",
-      "id": "gaode",
-      "queryUrl": "http://ditu.amap.com/search?query={}"
-    },
-	
-	{
-      "name": "百度地图",
-      "id": "bdditu",
-      "queryUrl": "https://map.baidu.com/search?querytype=s&wd={}"
-=======
       "name": "地图",
       "id": "ditu",
       "queryUrl": "http://ditu.amap.com/search?query={} "
-<<<<<<< HEAD
->>>>>>> parent of d87c89e... update
-    },
-	
-    {
-      "name": "本地宝",
-      "id": "bendibao",
-<<<<<<< HEAD
-      "queryUrl": "http://jn.bendibao.com/sou/?s=&q={}"
-    },
-	
-    {
-      "name": "马蜂窝",
-      "id": "mafengwo",
-      "queryUrl": "http://www.mafengwo.cn/search/q.php?q={}"
-=======
-      "queryUrl": "http://jn.bendibao.com/sou/?s=&q={} "
->>>>>>> parent of d87c89e... update
     }
-=======
-    },
-
-
->>>>>>> parent of 6161ade... Update config.json
   ]
 }
