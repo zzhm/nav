@@ -5,77 +5,59 @@
       "id": "baidu",
       "queryUrl": "https://www.baidu.com/s?wd={}"
     },
+	
     {
       "name": "谷歌",
       "id": "google",
       "queryUrl": "http://www.google.com/search?q={}"
     },
-    {
-      "name": "搜狗",
-      "id": "sogou",
-      "queryUrl": "https://www.sogou.com/web?query={}"
+	
+	{
+      "name": "百度学术",
+      "id": "bdxueshu",
+      "queryUrl": "http://xueshu.baidu.com/s?wd={} "
     },
-		    {
-		  "name": "必应",
-		  "id": "biying",
-		  "queryUrl": "https://cn.bing.com/search?q={}"
-			},
-		
+	
     {
-      "name": "京东",
-      "id": "jd",
-      "queryUrl": "http://search.jd.com/Search?enc=utf-8&keyword={}"
+      "name": "SCI-HUB",
+      "id": "scihub",
+      "queryUrl": "https://sci-hub.tw/{} "
     },
+	
     {
-      "name": "天猫",
-      "id": "tmall",
-      "queryUrl": "https://list.tmall.com/search_product.htm?q={}",
-      "display": false
+      "name": "IEEE",
+      "id": "ieee",
+      "queryUrl": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={} "
     },
+	
     {
-      "name": "淘宝",
-      "id": "taobao",
-      "queryUrl": "https://s.taobao.com/search?q={}"
+      "name": "Lib Gen",
+      "id": "libgen",
+      "queryUrl": "http://gen.lib.rus.ec/search.php?req={} "
     },
-    {
-      "name": "微信",
-      "id": "weixin",
-      "queryUrl": "http://weixin.sogou.com/weixin?type=2&query={}&ie=utf8"
-		},
-    {
-      "name": "知乎",
-      "id": "zhihu",
-      "queryUrl": "https://www.zhihu.com/search?q={}"
+	
+	{
+      "name": "Nature",
+      "id": "nature",
+      "queryUrl": "https://www.nature.com/search?q={} "
     },
+
     {
-      "name": "微博",
-      "id": "weibo",
-      "queryUrl": "http://s.weibo.com/weibo/{}"
+      "name": "Science",
+      "id": "science",
+      "queryUrl": "https://search.sciencemag.org/?searchTerm={} "
     },
+	
     {
-      "name": "豆瓣",
-      "id": "douban",
-      "queryUrl": "https://www.douban.com/search?q={}"
+      "name": "结题基金",
+      "id": "nsfcfond",
+      "queryUrl": "http://output.nsfc.gov.cn/conclusionQuick/{}"
     },
-		  
-				   {
-		  "name": "网盘",
-		  "id": "wangpan",
-		  "queryUrl": "https://www.dalipan.com/search?keyword={}",
-			"color": "danger",
-			 "display": true
-		},
-			
-		
-    {
-      "name": "影视",
-      "id": "ziyuan",
-      "queryUrl": "http://ifkdy.com/?q={}&p=1"
-    },
-    {
-      "name": "地图",
-      "id": "ditu",
-      "queryUrl": "http://ditu.amap.com/search?query={} "
-    }
+	
+	{
+	  "name": "SooPAT",
+	  "id": "soopat",
+	  "queryUrl": "http://www2.soopat.com/Home/Result?SearchWord={}"
+	}
   ]
 }
