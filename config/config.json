@@ -58,6 +58,138 @@
 	  "name": "SooPAT",
 	  "id": "soopat",
 	  "queryUrl": "http://www2.soopat.com/Home/Result?SearchWord={}"
-	}
+	},
+	
+	 {
+      "name": "京东",
+      "id": "jd",
+      "queryUrl": "http://search.jd.com/Search?enc=utf-8&keyword={}"
+    },
+	
+    {
+      "name": "天猫",
+      "id": "tmall",
+      "queryUrl": "https://list.tmall.com/search_product.htm?q={}&ali_trackid=2:mm_120109148_323350107_109489000473"
+    },
+	
+    {
+      "name": "淘宝",
+      "id": "taobao",
+      "queryUrl": "https://s.taobao.com/search?q={}"
+    },
+	
+	 {
+      "name": "当当",
+      "id": "dangdang",
+      "queryUrl": "http://search.dangdang.com/?key={}"
+    },
+	
+	{
+      "name": "飞猪",
+      "id": "feizhu",
+      "queryUrl": "https://travelsearch.fliggy.com/index.htm?searchType=product&keyword={}&ali_trackid=2:mm_120109148_323350107_109489000473"
+    },	
+	
+    {
+      "name": "微信",
+      "id": "weixin",
+      "queryUrl": "http://weixin.sogou.com/weixin?type=2&query={}&ie=utf8"
+	},
+	
+    {
+      "name": "知乎",
+      "id": "zhihu",
+      "queryUrl": "https://www.zhihu.com/search?q={}"
+    },
+	
+	{
+      "name": "文库",
+      "id": "wenku",
+      "queryUrl": "https://wenku.baidu.com/search?word={} "
+    },
+	
+	{
+      "name": "CSDN",
+      "id": "csdn",
+      "queryUrl": "https://so.csdn.net/so/search/s.do?q={} "
+    },
+	
+	{
+      "name": "UCDRS",
+      "id": "ucdrs",
+      "queryUrl": "http://book.ucdrs.superlib.net/search?Field=all&channel=search&sw={}&edtype=&ecode=utf-8"
+    },
+	
+    {
+      "name": "GitHub",
+      "id": "github",
+      "queryUrl": "https://github.com/search?q={} "
+    },
+	
+    {
+      "name": "微博",
+      "id": "weibo",
+      "queryUrl": "http://s.weibo.com/weibo/{}"
+    },
+	
+    {
+      "name": "豆瓣",
+      "id": "douban",
+      "queryUrl": "https://www.douban.com/search?q={}"
+    },	
+	
+	{
+	  "name": "网盘",
+	  "id": "wangpan",
+	  "queryUrl": "https://www.dalipan.com/search?keyword={}"
+	},
+	
+	{
+      "name": "优惠券",
+      "id": "youhuiquan",
+      "queryUrl": "http://q.zymin.cn/pc_main/pc-search?searchText={}"
+    },	
+	
+	{
+      "name": "大众点评",
+      "id": "dianping",
+      "queryUrl": "https://www.dianping.com/search/keyword/22/0_{} "
+    },
+	
+	{
+      "name": "美团",
+      "id": "youhuiquan",
+      "queryUrl": "https://jn.meituan.com/s/{} "
+    },	
+			
+    {
+      "name": "影视",
+      "id": "ziyuan",
+      "queryUrl": "http://ifkdy.com/?q={}&p=1"
+    },
+	
+    {
+      "name": "高德地图",
+      "id": "gaode",
+      "queryUrl": "http://ditu.amap.com/search?query={}"
+    },
+	
+	{
+      "name": "百度地图",
+      "id": "bdditu",
+      "queryUrl": "https://map.baidu.com/search?querytype=s&wd={}"
+    },
+	
+    {
+      "name": "本地宝",
+      "id": "bendibao",
+      "queryUrl": "http://jn.bendibao.com/sou/?s=&q={}"
+    },
+	
+    {
+      "name": "马蜂窝",
+      "id": "mafengwo",
+      "queryUrl": "http://www.mafengwo.cn/search/q.php?q={}"
+    }
   ]
 }
