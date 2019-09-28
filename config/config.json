@@ -48,15 +48,6 @@
       "queryUrl": "https://search.sciencemag.org/?searchTerm={} "
     },
 	
-<<<<<<< HEAD
-    {
-      "name": "ScienceDirect",
-      "id": "sciencedirect",
-      "queryUrl": "https://www.sciencedirect.com/search/advanced?qs={}&show=25&sortBy=relevance"
-    },	
-	
-=======
->>>>>>> parent of d87c89e... update
     {
       "name": "结题基金",
       "id": "nsfcfond",
