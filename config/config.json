@@ -208,6 +208,7 @@
       "name": "地图",
       "id": "ditu",
       "queryUrl": "http://ditu.amap.com/search?query={} "
+<<<<<<< HEAD
 >>>>>>> parent of d87c89e... update
     },
 	
@@ -226,5 +227,10 @@
       "queryUrl": "http://jn.bendibao.com/sou/?s=&q={} "
 >>>>>>> parent of d87c89e... update
     }
+=======
+    },
+
+
+>>>>>>> parent of 6161ade... Update config.json
   ]
 }
