@@ -48,6 +48,18 @@
       "queryUrl": "https://search.sciencemag.org/?searchTerm={} "
     },
 	
+	{
+      "name": "农机学报",
+      "id": "nongji",
+      "queryUrl": "http://www.j-csam.org/jcsam/ch/reader/key_query.aspx?field=title&key={}"
+    },
+	
+	{
+      "name": "农工学报",
+      "id": "nonggong",
+      "queryUrl": "http://www.tcsae.org/nygcxb/ch/reader/key_query.aspx?field=title&key={} "
+    },
+	
     {
       "name": "结题基金",
       "id": "nsfcfond",
