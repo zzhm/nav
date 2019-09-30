@@ -47,7 +47,12 @@
       "id": "science",
       "queryUrl": "https://search.sciencemag.org/?searchTerm={} "
     },
-	
+    {
+      "name": "ScienceDirect",
+      "id": "sciencedirect",
+      "queryUrl": "https://www.sciencedirect.com/search/advanced?qs={}&show=25&sortBy=relevance"
+    },
+		
 	{
       "name": "农机学报",
       "id": "nongji",
