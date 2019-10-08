@@ -207,6 +207,19 @@
       "name": "马蜂窝",
       "id": "mafengwo",
       "queryUrl": "http://www.mafengwo.cn/search/q.php?q={}"
+    },
+	
+    {
+      "name": "医学微视",
+      "id": "yixue",
+      "queryUrl": "https://www.mvyxws.com/index.php/vod/search?key={}"
+    },
+	
+    {
+      "name": "Bilibili",
+      "id": "bilibili",
+      "queryUrl": "http://search.bilibili.com/all?keyword={}"
     }
+
   ]
 }
