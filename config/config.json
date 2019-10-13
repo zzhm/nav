@@ -219,6 +219,12 @@
       "name": "Bilibili",
       "id": "bilibili",
       "queryUrl": "http://search.bilibili.com/all?keyword={}"
+    },
+	
+    {
+      "name": "Research Gate",
+      "id": "researchgate",
+      "queryUrl": "https://www.researchgate.net/search/questions?q={}"
     }
 
   ]
